@@ -7,7 +7,7 @@ Home: https://github.com/MrBin99/django-vite
 
 Package license: Apache-2.0
 
-Summary: Integration of ViteJS in a Django project.
+Summary: Integration of Vite in a Django project.
 
 Current build status
 ====================
