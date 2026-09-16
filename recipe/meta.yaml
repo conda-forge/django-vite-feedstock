@@ -1,13 +1,13 @@
 {% set name = "django-vite" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_vite-{{ version }}.tar.gz
-  sha256: 8b4ffe4a9fa81ff568bfb195e74dde8694aaf13fd4b656ae60bf59cce08b85e8
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/django_vite-{{ version }}.tar.gz
+  sha256: fdb96b3f4307466d1edd1c19a79cf7dbfabb1a7827c5cb2991d9a6aae528c9db
 
 build:
   noarch: python
@@ -22,6 +22,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - django >=3.2
+    # - black 
+    # - Django >=3.2
     # - black 
     # - Django >=3.2
 
